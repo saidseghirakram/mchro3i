@@ -5,12 +5,14 @@ import { Button } from '@/components/ui/button';
 const HeroSection = () => {
   return (
     <section className="relative py-20 overflow-hidden">
+
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-green-50">
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       </div>
-      
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container flex flex-col justify-center items-center mx-auto px-4 relative z-10">
+           <img src="/img.png" alt="logo" className='z-50 sm:w-[350px] sm:h-[350px] w-[200px] h-[200px]' />
+
         <div className="text-center max-w-4xl mx-auto">
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
